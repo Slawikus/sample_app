@@ -3,6 +3,12 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.0'
+# Use Faker for fake data generation
+gem 'faker'
+# Pagination
+gem 'will_paginate'
+# Bootstrap pagination
+gem 'bootstrap-will_paginate'
 # Use Bootstrap sass
 gem 'bootstrap-sass', '3.3.6'
 # Use Puma as the app server
